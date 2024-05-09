@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#93CC5D"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="689dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-66dp"
+        app:srcCompat="@drawable/calc"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="551dp"
+        android:fontFamily="@font/calistoga"
+        android:gravity="center"
+        android:text="@string/calculator1"
+        android:textColor="#000000"
+        android:textSize="52sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <Button
+        android:id="@+id/Move"
+        android:layout_width="165dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="354dp"
+        android:backgroundTint="#090909"
+        android:text="@string/enter1"
+        android:textColor="#FAF7F7"
+        android:textSize="24sp"
+        app:strokeColor="#70AC2B"
+        app:strokeWidth="5dp" />
+
+</RelativeLayout>
